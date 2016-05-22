@@ -84,12 +84,13 @@ hi ConId		cterm=BOLD	ctermbg=NONE	ctermfg=31
 
 "PYTHON
 hi pythonComment	cterm=NONE	ctermbg=NONE	ctermfg=239
-hi pythonInclude	cterm=NONE	ctermbg=NONE	ctermfg=184
+hi pythonInclude	cterm=NONE	ctermbg=NONE	ctermfg=34
 hi pythonFunction	cterm=NONE	ctermbg=NONE	ctermfg=221
-hi pythonString		cterm=NONE	ctermbg=NONE	ctermfg=131
+hi pythonString		cterm=NONE	ctermbg=NONE	ctermfg=139
 hi pythonBuiltin	cterm=BOLD	ctermbg=NONE	ctermfg=73
-hi pythonNumber		cterm=NONE	ctermbg=NONE	ctermfg=203
+hi pythonNumber		cterm=NONE	ctermbg=NONE	ctermfg=137
 hi pythonConditional	cterm=NONE	ctermbg=NONE	ctermfg=75
+hi pythonStatement	cterm=NONE	ctermbg=NONE	ctermfg=60
 
 "TEX
 hi texDocType		cterm=NONE	ctermbg=NONE	ctermfg=25
