@@ -19,6 +19,11 @@ hi Pmenu		cterm=NONE	ctermbg=238	ctermfg=253
 hi PmenuSel		cterm=NONE	ctermbg=234	ctermfg=83
 hi Folded		cterm=NONE	ctermbg=236	ctermfg=242
 
+"NetRW
+hi netrwPlain		cterm=NONE	ctermbg=NONE	ctermfg=243
+hi netrwDir		cterm=BOLD	ctermbg=NONE	ctermfg=139
+hi netrwComment		cterm=NONE	ctermbg=NONE	ctermfg=215
+
 "TabLine
 hi TabLine 		cterm=NONE	ctermbg=238	ctermfg=246
 hi TabLineFill		cterm=NONE	ctermbg=238	ctermfg=NONE
@@ -87,7 +92,6 @@ hi pythonNumber		cterm=NONE	ctermbg=NONE	ctermfg=203
 hi pythonConditional	cterm=NONE	ctermbg=NONE	ctermfg=75
 
 "TEX
-hi texStatement		cterm=NONE	ctermbg=NONE	ctermfg=221
 hi texDocType		cterm=NONE	ctermbg=NONE	ctermfg=25
 hi texSection		cterm=NONE	ctermbg=NONE	ctermfg=111
 hi texComment		cterm=NONE	ctermbg=NONE	ctermfg=59
