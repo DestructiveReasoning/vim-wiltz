@@ -41,7 +41,7 @@ hi cInclude		cterm=NONE	ctermbg=NONE	ctermfg=34
 hi cIncluded		cterm=NONE	ctermbg=NONE	ctermfg=243
 hi cPreCondit		cterm=NONE	ctermbg=NONE	ctermfg=139
 hi cPreConditMatch	cterm=NONE	ctermbg=NONE	ctermfg=139
-hi cDefine		cterm=NONE	ctermbg=NONE	ctermfg=137
+hi cDefine		cterm=NONE	ctermbg=NONE	ctermfg=143
 hi cBlock		cterm=NONE	ctermbg=235	ctermfg=NONE
 hi cConditional		cterm=NONE	ctermbg=NONE	ctermfg=60
 hi cParen		cterm=NONE	ctermbg=NONE	ctermfg=254
@@ -55,14 +55,14 @@ hi cStatement		cterm=BOLD	ctermbg=NONE	ctermfg=214
 
 "JAVA
 hi javaType		cterm=NONE	ctermbg=NONE	ctermfg=32
-hi javaTypeDef		cterm=NONE	ctermbg=NONE	ctermfg=137
+hi javaTypeDef		cterm=NONE	ctermbg=NONE	ctermfg=143
 hi javaStorageClass	cterm=NONE	ctermbg=NONE	ctermfg=68
 hi javaBoolean		cterm=NONE	ctermbg=NONE	ctermfg=33
 hi javaNumber		cterm=NONE	ctermbg=NONE	ctermfg=23
 hi javaLineComment	cterm=NONE	ctermbg=NONE	ctermfg=59
 hi javaDocComment	cterm=NONE	ctermbg=NONE	ctermfg=240
 hi javaCommentTitle	cterm=NONE	ctermbg=NONE	ctermfg=240
-hi javacommentStar	cterm=NONE	ctermbg=NONE	ctermfg=94
+hi javacommentStar	cterm=NONE	ctermbg=NONE	ctermfg=143
 hi javaExternal		cterm=NONE	ctermbg=NONE	ctermfg=34
 hi javaConditional	cterm=NONE	ctermbg=NONE	ctermfg=60
 hi javaString		cterm=NONE	ctermbg=NONE	ctermfg=139
