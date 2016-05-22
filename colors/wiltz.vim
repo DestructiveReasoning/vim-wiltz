@@ -32,22 +32,22 @@ hi TabLineSel		cterm=BOLD	ctermbg=235	ctermfg=179
 "C & C++
 hi cType		cterm=NONE	ctermbg=NONE	ctermfg=32
 hi cStructure		cterm=NONE	ctermbg=NONE	ctermfg=136
-hi cppType		cterm=NONE	ctermbg=NONE	ctermfg=107
+hi cppType		cterm=NONE	ctermbg=NONE	ctermfg=32
 hi cStorageClass	cterm=NONE	ctermbg=NONE	ctermfg=68
 hi cppBoolean		cterm=NONE	ctermbg=NONE	ctermfg=33
 hi cNumber		cterm=NONE	ctermbg=NONE	ctermfg=23
 hi cComment		cterm=NONE	ctermbg=NONE	ctermfg=59
 hi cInclude		cterm=NONE	ctermbg=NONE	ctermfg=34
-hi cIncluded		cterm=NONE	ctermbg=NONE	ctermfg=184
-hi cPreCondit		cterm=NONE	ctermbg=NONE	ctermfg=184
-hi cPreConditMatch	cterm=NONE	ctermbg=NONE	ctermfg=184
-hi cDefine		cterm=NONE	ctermbg=NONE	ctermfg=84
+hi cIncluded		cterm=NONE	ctermbg=NONE	ctermfg=243
+hi cPreCondit		cterm=NONE	ctermbg=NONE	ctermfg=139
+hi cPreConditMatch	cterm=NONE	ctermbg=NONE	ctermfg=139
+hi cDefine		cterm=NONE	ctermbg=NONE	ctermfg=137
 hi cBlock		cterm=NONE	ctermbg=235	ctermfg=NONE
 hi cConditional		cterm=NONE	ctermbg=NONE	ctermfg=60
 hi cParen		cterm=NONE	ctermbg=NONE	ctermfg=254
 hi cConstant		cterm=NONE	ctermbg=NONE	ctermfg=33
 hi cFloat		cterm=NONE	ctermbg=NONE	ctermfg=23
-hi cString		cterm=NONE	ctermbg=NONE	ctermfg=30
+hi cString		cterm=NONE	ctermbg=NONE	ctermfg=139
 hi cppStatement		cterm=BOLD	ctermbg=NONE	ctermfg=214
 hi cppRepeat		cterm=NONE	ctermbg=NONE	ctermfg=148
 hi cLabel		cterm=NONE	ctermbg=NONE	ctermfg=39
@@ -55,6 +55,7 @@ hi cStatement		cterm=BOLD	ctermbg=NONE	ctermfg=214
 
 "JAVA
 hi javaType		cterm=NONE	ctermbg=NONE	ctermfg=32
+hi javaTypeDef		cterm=NONE	ctermbg=NONE	ctermfg=137
 hi javaStorageClass	cterm=NONE	ctermbg=NONE	ctermfg=68
 hi javaBoolean		cterm=NONE	ctermbg=NONE	ctermfg=33
 hi javaNumber		cterm=NONE	ctermbg=NONE	ctermfg=23
@@ -64,33 +65,33 @@ hi javaCommentTitle	cterm=NONE	ctermbg=NONE	ctermfg=240
 hi javacommentStar	cterm=NONE	ctermbg=NONE	ctermfg=94
 hi javaExternal		cterm=NONE	ctermbg=NONE	ctermfg=34
 hi javaConditional	cterm=NONE	ctermbg=NONE	ctermfg=60
-hi javaString		cterm=NONE	ctermbg=NONE	ctermfg=30
+hi javaString		cterm=NONE	ctermbg=NONE	ctermfg=139
 hi javaStatement	cterm=BOLD	ctermbg=NONE	ctermfg=214
 hi javaScopeDecl	cterm=BOLD	ctermbg=NONE	ctermfg=24
 hi javaClassDecl	cterm=BOLD	ctermbg=NONE	ctermfg=106
 hi javaOperator		cterm=NONE	ctermbg=NONE	ctermfg=68
 
 "HASKELL
-hi hsVarSym		cterm=NONE	ctermbg=NONE	ctermfg=242
+hi hsVarSym		cterm=NONE	ctermbg=NONE	ctermfg=137
 hi hsConditional	cterm=NONE	ctermbg=NONE	ctermfg=60
 hi hsNumber		cterm=NONE	ctermbg=NONE	ctermfg=23
-hi hsTypedef		cterm=NONE	ctermbg=NONE	ctermfg=68
+hi hsTypedef		cterm=NONE	ctermbg=NONE	ctermfg=139
 hi hsStructure		cterm=NONE	ctermbg=NONE	ctermfg=68
-hi hsString		cterm=NONE	ctermbg=NONE	ctermfg=30
+hi hsString		cterm=NONE	ctermbg=NONE	ctermfg=139
 hi hsLineComment	cterm=NONE	ctermbg=NONE	ctermfg=59
 hi hsImport 		cterm=NONE	ctermbg=NONE	ctermfg=34
-hi hsStatement		cterm=NONE	ctermbg=NONE	ctermfg=61
+hi hsStatement		cterm=NONE	ctermbg=NONE	ctermfg=214
 hi ConId		cterm=BOLD	ctermbg=NONE	ctermfg=31
 
 "PYTHON
-hi pythonComment	cterm=NONE	ctermbg=NONE	ctermfg=239
+hi pythonComment	cterm=NONE	ctermbg=NONE	ctermfg=59
 hi pythonInclude	cterm=NONE	ctermbg=NONE	ctermfg=34
 hi pythonFunction	cterm=NONE	ctermbg=NONE	ctermfg=221
 hi pythonString		cterm=NONE	ctermbg=NONE	ctermfg=139
 hi pythonBuiltin	cterm=BOLD	ctermbg=NONE	ctermfg=73
-hi pythonNumber		cterm=NONE	ctermbg=NONE	ctermfg=137
-hi pythonConditional	cterm=NONE	ctermbg=NONE	ctermfg=75
-hi pythonStatement	cterm=NONE	ctermbg=NONE	ctermfg=60
+hi pythonNumber		cterm=NONE	ctermbg=NONE	ctermfg=23
+hi pythonConditional	cterm=NONE	ctermbg=NONE	ctermfg=60
+hi pythonStatement	cterm=NONE	ctermbg=NONE	ctermfg=214
 
 "TEX
 hi texDocType		cterm=NONE	ctermbg=NONE	ctermfg=25
@@ -107,19 +108,23 @@ hi texMathOper		cterm=NONE	ctermbg=NONE	ctermfg=137
 
 "VIM
 hi vimHighlight		cterm=NONE	ctermbg=NONE	ctermfg=68
-hi vimHiGroup		cterm=NONE	ctermbg=NONE	ctermfg=192
-hi vimHiNmbr		cterm=NONE	ctermbg=NONE	ctermfg=203
-hi vimFgBgAttrib	cterm=NONE	ctermbg=NONE	ctermfg=39
-hi vimHiAttrib		cterm=NONE	ctermbg=NONE	ctermfg=39
-hi vimVar		cterm=NONE	ctermbg=NONE	ctermfg=33
-hi vimLet		cterm=BOLD	ctermbg=NONE	ctermfg=226
-hi vimFuncName		cterm=NONE	ctermbg=NONE	ctermfg=107
+hi vimHiGroup		cterm=NONE	ctermbg=NONE	ctermfg=137
+hi vimHiNmbr		cterm=NONE	ctermbg=NONE	ctermfg=23
+hi vimFgBgAttrib	cterm=NONE	ctermbg=NONE	ctermfg=139
+hi vimHiCTermFgBg	cterm=NONE	ctermbg=NONE	ctermfg=143
+hi vimHiCTerm		cterm=NONE	ctermbg=NONE	ctermfg=143
+hi vimHiAttrib		cterm=NONE	ctermbg=NONE	ctermfg=139
+hi vimVar		cterm=NONE	ctermbg=NONE	ctermfg=32
+hi vimLet		cterm=BOLD	ctermbg=NONE	ctermfg=214
+hi vimFuncName		cterm=NONE	ctermbg=NONE	ctermfg=137
 hi vimString		cterm=NONE	ctermbg=NONE	ctermfg=221
-hi vimCommand		cterm=BOLD	ctermbg=NONE	ctermfg=226
+hi vimCommand		cterm=BOLD	ctermbg=NONE	ctermfg=60
 hi vimOption		cterm=NONE	ctermbg=NONE	ctermfg=239
-hi vimSetEqual		cterm=ITALIC	ctermbg=NONE	ctermfg=221
-hi vimLineComment	cterm=ITALIC	ctermbg=NONE	ctermfg=59
-hi vimCursorLineComment	cterm=ITALIC	ctermfg=239	ctermbg=83
+hi vimSetEqual		cterm=NONE	ctermbg=NONE	ctermfg=221
+hi vimLineComment	cterm=NONE	ctermbg=NONE	ctermfg=59
+hi vimCursorLineComment	cterm=NONE	ctermfg=239	ctermbg=83
+hi vimAutoEvent		cterm=NONE	ctermbg=NONE	ctermfg=143
+hi vimString		cterm=NONE	ctermbg=NONE	ctermfg=139
 
 "CONFIG FILES
 hi confString	cterm=NONE	ctermbg=NONE	ctermfg=39
