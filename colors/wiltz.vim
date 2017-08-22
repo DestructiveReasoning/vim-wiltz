@@ -6,7 +6,7 @@ endif
 let g:colors_name = "wiltz"
 
 "General
-hi Normal		cterm=NONE	ctermbg=233	ctermfg=251
+hi Normal		cterm=NONE	ctermbg=NONE	ctermfg=251
 hi CursorLine		cterm=NONE	ctermbg=235	ctermfg=NONE
 hi LineNr		cterm=NONE	ctermbg=236	ctermfg=246
 hi CursorLineNr		cterm=NONE	ctermbg=236	ctermfg=220
